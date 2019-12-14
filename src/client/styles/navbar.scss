@@ -1,0 +1,25 @@
+.navbar {
+  padding:  2rem;
+  background: rgba($blue, 1);
+  margin-bottom: 1em;
+
+  & a {
+    color: $white;
+  }
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+
+    & .list-group {
+      display: flex;
+
+      & .list-item {
+
+        &:not(:last-child) {
+          margin-right: 1.4rem;
+        }
+      }
+    }
+  }
+}

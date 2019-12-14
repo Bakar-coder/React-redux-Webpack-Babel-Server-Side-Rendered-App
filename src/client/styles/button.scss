@@ -1,0 +1,19 @@
+button , input[type='submit'] {
+  border: none;
+  outline: none;
+  font-size: inherit;
+  padding: .8rem 2.2rem;
+  border-radius: .4rem;
+  cursor: pointer;
+}
+
+.btn {
+  background: $gold;
+  color: $darkGrey;
+
+  &-danger {
+    background: $redGradient;
+    color: $white;
+    padding: .5rem 1.5rem;
+  }
+}
